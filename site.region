@@ -20,7 +20,7 @@
         <squarespace:navigation navigationId="mainNav" template="navigation" />
       </header>
 
-      <main class="content">
+      <main class="content" data-content-field="main-content">
         <div>
           <p>{website.siteTagLine}</p>
         </div>
