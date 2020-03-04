@@ -9,16 +9,15 @@
     {squarespace-headers}
   </head>
 
-  <body>
-
+  <body class="{squarespace.page-classes}" id="{squarespace.page-id}">
     <div class="container">
-
       <header class="header">
         <h1 class="site-title">
           <a href="/">
             {website.siteTitle}
           </a>
         </h1>
+        <squarespace:navigation navigationId="mainNav" template="navigation" />
       </header>
 
       <main class="content">
