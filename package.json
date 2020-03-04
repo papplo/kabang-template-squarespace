@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "pre-commit": ["build"],
   "scripts": {
-    "build": "postcss --use autoprefixer tailwindcss --no-map -w src/dependencies/stylesheets/*.css --dir styles",
+    "build": "postcss --use autoprefixer tailwindcss --no-map src/dependencies/stylesheets/*.css --dir styles",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,6 +21,7 @@
     "tailwindcss": "^1.2.0"
   },
   "devDependencies": {
-    "postcss-cli": "^7.1.0"
+    "postcss-cli": "^7.1.0",
+    "pre-commit": "^1.2.2"
   }
 }
