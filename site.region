@@ -22,19 +22,19 @@
 
       </header>
 
-      <main class="content" data-content-field="main-content">
+      <main class="content" data-content-field="main-content" lock-layout="true">
         <div>
           {squarespace.main-content}
         </div>
       </main>
 
       <section>
-        
+
       </section>
 
       <!--Footer with open block field -->
       <footer class="site-footer">
-        <squarespace:block-field id="footerBlocks" columns="12" />
+        <squarespace:block-field lock-layout="true" id="footerBlocks" columns="12" />
       </footer>
 
     </div>
