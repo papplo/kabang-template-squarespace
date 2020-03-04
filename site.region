@@ -7,25 +7,20 @@
     {squarespace-headers}
   </head>
 
-  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes} bg-gray-100">
     <div class="container">
       <header class="header">
-        <h1 class="site-title">
-          <a href="/">
-            {website.siteTitle}
-          </a>
-        </h1>
+        <squarespace:navigation navigationId="mainNav" template="navigation" />
         {.section website}
           <h1 class="site-title-heading" data-content-field="site-title">
             <a href="/" class="site-title-link">{website.siteTitle}</a>
           </h1>
         {.end}
-        <squarespace:navigation navigationId="mainNav" template="navigation" />
+
       </header>
 
       <main class="content" data-content-field="main-content">
         <div>
-          <p>{website.siteTagLine}</p>
           {squarespace.main-content}
         </div>
       </main>

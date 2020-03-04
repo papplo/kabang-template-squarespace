@@ -5,6 +5,7 @@
   "main": "index.js",
   "pre-commit": ["build", "commit-dependencies"],
   "scripts": {
+    "dev": "squarespace-server --auth --verbose --auto-reload https://point-guitar-h4pd.squarespace.com",
     "build": "postcss --use autoprefixer tailwindcss --no-map src/dependencies/stylesheets/*.less --dir styles",
     "commit-dependencies": "git add styles",
     "test": "echo \"Error: no test specified\" && exit 1"
