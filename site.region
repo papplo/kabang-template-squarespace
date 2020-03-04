@@ -6,7 +6,7 @@
     <!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
     {squarespace-headers}
     <style>
-    @import url('https://fonts.googleapis.com/css?family=Londrina+Solid:300,900&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Londrina+Solid&family=Rambla:wght@400;700&display=swap');
     </style>
   </head>
 
@@ -22,14 +22,18 @@
 
       </header>
 
-      <main class="content" data-content-field="main-content" lock-layout="true">
+      <main id="nytt-gagg" class="content wrapper-grid" data-content-field="main-content" lock-layout="true">
         <div>
           {squarespace.main-content}
         </div>
       </main>
 
-      <section>
+      <section id="g-sido">
+asd
+      </section>
 
+      <section id="g-tack">
+asd
       </section>
 
       <!--Footer with open block field -->

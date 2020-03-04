@@ -3698,7 +3698,7 @@ video {
 }
 
 .font-body {
-  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+  font-family: Rambla, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
 }
 
 .font-hairline {
@@ -13971,6 +13971,7 @@ video {
 
 html {
   line-height: 1.75;
+  font-family: Rambla, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 h1 {
@@ -13985,9 +13986,73 @@ h3 {
   font-size: 1.5rem;
 }
 
-a {
-  text-decoration: underline;
-  color: #6FCADC
+h1,h2,h3,h4,h5,h6 {
+  font-family: Londrina Solid, sans-serif;
+}
+
+.button {
+  padding: 1.5rem;
+  text-align: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  background: linear-gradient(170deg, #6FCADC, navy 80% )
+}
+
+.wrapper {
+  max-width: 72rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 6rem
+}
+
+.wrapper-grid {
+  max-width: 72rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "nytt-gagg sidospår"
+    "nytt-gagg tackar";
+  grid-gap: 4rem 6rem;
+  @media(max-width: 768px) {
+    grid-template-columns: 1fr;
+
+    grid-template-rows: auto;
+
+    grid-template-areas:
+        "nytt-gagg"
+        "sidospår"
+        "tackar";
+  }
+}
+
+#g-nytt { grid-area: nytt-gagg / nytt-gagg / nytt-gagg / nytt-gagg;
+}
+
+#g-sido { grid-area: sidospår / sidospår / sidospår / sidospår;
+}
+
+#g-tack { grid-area: tackar / tackar / tackar / tackar;
+}
+
+.article-slim {
+  max-width: 42rem;
+  margin: auto;
+}
+
+.full-bleed {
+  width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 @media (min-width: 640px) {
@@ -17066,7 +17131,7 @@ a {
   }
 
   .sm\:font-body {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+    font-family: Rambla, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
   }
 
   .sm\:font-hairline {
@@ -30406,7 +30471,7 @@ a {
   }
 
   .md\:font-body {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+    font-family: Rambla, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
   }
 
   .md\:font-hairline {
@@ -43746,7 +43811,7 @@ a {
   }
 
   .lg\:font-body {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+    font-family: Rambla, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
   }
 
   .lg\:font-hairline {
@@ -57086,7 +57151,7 @@ a {
   }
 
   .xl\:font-body {
-    font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
+    font-family: Rambla, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif !important;
   }
 
   .xl\:font-hairline {

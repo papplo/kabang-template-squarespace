@@ -5,6 +5,7 @@
 
 html {
   line-height: 1.75;
+  font-family: theme('fontFamily.body');
 }
 
 h1 {
@@ -16,7 +17,53 @@ h2 {
 h3 {
   @apply text-2xl;
 }
-a {
-  @apply underline;
-  color: theme('clr.compliment')
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: theme('fontFamily.display');
+}
+
+.button {
+  @apply p-6 text-center text-center rounded-lg;
+  background: linear-gradient(170deg, theme('clr.compliment'), navy 80% )
+}
+
+.wrapper {
+  @apply max-w-6xl w-full ml-auto mr-auto pl-8 pr-8 mt-24
+}
+
+.wrapper-grid {
+  @apply .wrapper;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "nytt-gagg sidospår"
+    "nytt-gagg tackar";
+
+  grid-gap: theme('spacing.16') theme('spacing.24');
+
+  @media(max-width: 768px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "nytt-gagg"
+        "sidospår"
+        "tackar";
+  }
+}
+
+#g-nytt { grid-area: nytt-gagg / nytt-gagg / nytt-gagg / nytt-gagg;}
+#g-sido { grid-area: sidospår / sidospår / sidospår / sidospår;}
+#g-tack { grid-area: tackar / tackar / tackar / tackar;}
+
+
+.article-slim {
+  @apply max-w-2xl m-auto;
+}
+
+.full-bleed {
+  @apply w-screen;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
