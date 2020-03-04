@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="initial-scale=1">
+    <!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
+    {squarespace-headers}
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Londrina+Solid|Rambla:400,700&display=swap');
+    </style>
+  </head>
+
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes} bg-gray-100">
+    <div class="container">
+      <header class="header">
+        <squarespace:navigation navigationId="mainNav" template="navigation" />
+        {.section website}
+          <h1 class="site-title-heading" data-content-field="site-title">
+            <a href="/" class="site-title-link">{website.siteTitle}</a>
+          </h1>
+        {.end}
+      </header>

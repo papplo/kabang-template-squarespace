@@ -13970,7 +13970,7 @@ video {
 }
 
 html {
-  line-height: 1.75;
+  line-height: 1.45;
   font-family: Rambla, system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
@@ -13988,6 +13988,12 @@ h3 {
 
 h1,h2,h3,h4,h5,h6 {
   font-family: Londrina Solid, sans-serif;
+}
+
+p {
+  font-size: 112%;
+  letter-spacing: .015rem;
+  color: #3C383D;
 }
 
 .button {
@@ -14020,7 +14026,7 @@ h1,h2,h3,h4,h5,h6 {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto 1fr;
   grid-template-areas:
-    "nytt-gagg sidospår"
+    "nytt-gagg sidospar"
     "nytt-gagg tackar";
   grid-gap: 4rem 6rem;
   @media(max-width: 768px) {
@@ -14030,7 +14036,7 @@ h1,h2,h3,h4,h5,h6 {
 
     grid-template-areas:
         "nytt-gagg"
-        "sidospår"
+        "sidospar"
         "tackar";
   }
 }
@@ -14038,7 +14044,7 @@ h1,h2,h3,h4,h5,h6 {
 #g-nytt { grid-area: nytt-gagg / nytt-gagg / nytt-gagg / nytt-gagg;
 }
 
-#g-sido { grid-area: sidospår / sidospår / sidospår / sidospår;
+#g-sido { grid-area: sidospar / sidospar / sidospar / sidospar;
 }
 
 #g-tack { grid-area: tackar / tackar / tackar / tackar;

@@ -4,7 +4,7 @@
 @import "./vars.css";
 
 html {
-  line-height: 1.75;
+  line-height: 1.45;
   font-family: theme('fontFamily.body');
 }
 
@@ -20,6 +20,12 @@ h3 {
 
 h1,h2,h3,h4,h5,h6 {
   font-family: theme('fontFamily.display');
+}
+
+p {
+  font-size: 112%;
+  letter-spacing: .015rem;
+  color: theme('clr.bodytext');
 }
 
 .button {
@@ -38,7 +44,7 @@ h1,h2,h3,h4,h5,h6 {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto 1fr;
   grid-template-areas:
-    "nytt-gagg sidospår"
+    "nytt-gagg sidospar"
     "nytt-gagg tackar";
 
   grid-gap: theme('spacing.16') theme('spacing.24');
@@ -48,13 +54,13 @@ h1,h2,h3,h4,h5,h6 {
     grid-template-rows: auto;
     grid-template-areas:
         "nytt-gagg"
-        "sidospår"
+        "sidospar"
         "tackar";
   }
 }
 
 #g-nytt { grid-area: nytt-gagg / nytt-gagg / nytt-gagg / nytt-gagg;}
-#g-sido { grid-area: sidospår / sidospår / sidospår / sidospår;}
+#g-sido { grid-area: sidospar / sidospar / sidospar / sidospar;}
 #g-tack { grid-area: tackar / tackar / tackar / tackar;}
 
 

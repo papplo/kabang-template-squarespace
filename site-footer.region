@@ -1,0 +1,8 @@
+</div>
+    <squarespace:script src="alpine-dist.js" combo="false" />
+
+    <!--Injection point for tracking scripts and user content from the code injection tab.-->
+    {squarespace-footers}
+
+  </body>
+</html>
