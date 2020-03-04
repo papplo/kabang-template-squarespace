@@ -5,6 +5,9 @@
     <meta name="viewport" content="initial-scale=1">
     <!--Include sqs scripts, meta tags, and user content from the code injection tab.-->
     {squarespace-headers}
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Londrina+Solid:300,900&display=swap');
+    </style>
   </head>
 
   <body id="{squarespace.page-id}" class="{squarespace.page-classes} bg-gray-100">
@@ -24,6 +27,10 @@
           {squarespace.main-content}
         </div>
       </main>
+
+      <section>
+        
+      </section>
 
       <!--Footer with open block field -->
       <footer class="site-footer">

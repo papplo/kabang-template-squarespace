@@ -1,14 +1,22 @@
-@tailwind base;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./vars.css";
 
-@font-face {
-  font-family: "Londrina Solid";
-  font-weight: 300;
-  src: url("https://fonts.googleapis.com/css?family=Londrina+Solid:300,900&display=swap");
-}
 html {
-  line-height: 1.15;
-
+  line-height: 1.75;
 }
-h1, h2, h3, h4 {
-  font-family: "Londrina Solid"
+
+h1 {
+  @apply text-6xl;
+}
+h2 {
+  @apply text-4xl;
+}
+h3 {
+  @apply text-2xl;
+}
+a {
+  @apply underline;
+  color: theme('clr.compliment')
 }

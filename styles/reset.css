@@ -2,7 +2,7 @@
 ***************************************************/
 
 body {
-  color: #000000;
+  color: var(--clr-bodytext);
   font-style: normal;
 }
 
@@ -18,9 +18,12 @@ body {
 
 h1.site-title-heading {
   a {
-    font-family: 'Londrina Solid';
-    color: #000000;
+    color: var(--clr-contrast-kbng);
     font-weight: 700;
+    letter-spacing: .0125rem;
     text-decoration: none;
   }
+}
+h1, h2, h3, h4 {
+  font-family: "Londrina Solid"
 }
