@@ -1,0 +1,5 @@
+<article class="article-slim">
+  <main class="content" data-content-field="main-content">
+      {squarespace.main-content}
+  </main>
+</article>

@@ -13,8 +13,3 @@
         </section>
 
     </article>
-
-      <!--Footer with open block field -->
-      <footer class="site-footer">
-        <squarespace:block-field lock-layout="true" id="footerBlocks" columns="12" />
-      </footer>
