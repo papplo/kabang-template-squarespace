@@ -4,6 +4,7 @@ module.exports = {
     clr: {
       contrast: '#F57D05',
       primary: '#FFC222',
+      secondary: '#F57D05',
       compliment: '#6FCADC',
       bodytext: '#3C383D',
       bgshade: '#FAFAFA'

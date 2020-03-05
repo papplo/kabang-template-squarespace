@@ -1,0 +1,35 @@
+<!-- Horizontal Line Spacer -->
+<hr class="mt-8"/>
+
+<h1 class="pt-6 pb-1 text-center">Kontakta oss!</h1>
+
+<svg height="55" width="480" class="speechbubble">
+  <polygon points="0,10 480,0 475,51 17,54"
+style="fill:white;stroke:black;stroke-width:2" />
+  <text x="25" y="40" class="heading">Tomas Näslund / Vd och Grundare</text>
+</svg>
+<h3 class="text-center">tomas@kabang.se 070 - 377 79 80</h3>
+
+<!-- Horizontal Line Spacer -->
+<hr class="mt-8 mb-8"/>
+
+<svg height="120" width="480" class="speechbubble">
+  <polygon points="0,0 480,20 475,115 7,97"
+style="fill:white;stroke:black;stroke-width:2" />
+  <text x="25" y="50" class="heading">Fredric Ståhlgren / E-Commerce</text>
+  <text x="30" y="80" class="heading">Specialist och Grundare</text>
+</svg>
+
+<h3 class="text-center">fredric@kabang.se 070 - 995 12 42</h3>
+
+
+<!-- Horizontal Line Spacer -->
+<hr class="mt-12 mb-12"/>
+
+<svg height="55" width="480" class="speechbubble transform">
+  <polygon points="0,10 480,2 475,48 9,48"
+style="fill:white;stroke:black;stroke-width:2" />
+  <text x="57" y="40" class="heading tracking-wide">Släpp iväg ett mejl till oss</text>
+</svg>
+
+{@|apply contact-form.block}

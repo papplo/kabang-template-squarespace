@@ -28,10 +28,58 @@ p {
   color: theme('clr.bodytext');
 }
 
-.button {
-  @apply p-6 text-center text-center rounded-lg;
-  background: linear-gradient(170deg, theme('clr.compliment'), navy 80% )
+.heading {
+  font-family: theme('fontFamily.display');
+  @apply text-3xl tracking-wide uppercase;
+  fill: theme('clr.bodytext');
+ }
+
+.speechbubble {
+  margin: 1rem auto;
+  -webkit-filter: drop-shadow(-4px 4px 0px rgba(0, 0, 0, .3));
+  filter: drop-shadow( -4px 4px 0px rgba(0, 0, 0, .3));
+  --transform-rotate: -2deg !important;
 }
+
+
+.button {
+  @apply cursor-pointer;
+  @apply p-6 pl-12 pr-12 text-center text-center text-white rounded-lg;
+  transition: all .3s;
+}
+
+.button:hover, .button:focus {
+  color: theme('clr.contrast');
+  background: transparent;
+  @apply bg-gray-400 font-normal;
+}
+.button:active {
+  transform: scale(0.95);
+}
+
+.button-primary {
+  background: linear-gradient(170deg, theme('clr.compliment') 0%, navy 80% );
+}
+
+.button-secondary {
+  background: linear-gradient(170deg, theme('clr.primary') 0%, theme('clr.contrast') 80% );
+}
+
+form {
+  input {
+    transition: all .125s;
+  }
+  label[for] {
+    @apply block uppercase tracking-wide text-gray-700 text-sm font-light mb-2;
+  }
+  input.text, textarea.area{
+      @apply appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight;
+  }
+  input:focus {
+        @apply outline-none bg-white border-gray-500
+      }
+}
+
 
 .wrapper {
   @apply max-w-6xl w-full ml-auto mr-auto pl-8 pr-8 mt-24
