@@ -5,11 +5,12 @@
         </main>
 
         <section id="g-sido">
-          asd
+          <squarespace:block-field id="sideBar" columns="12" />
+          <a class="button">Click here to Apply</a>
         </section>
 
         <section id="g-tack">
-          asd
+          <squarespace:block-field id="appendix" columns="12" />
         </section>
 
     </article>
