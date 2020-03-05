@@ -40,8 +40,10 @@ p {
   filter: drop-shadow( -4px 4px 0px rgba(0, 0, 0, .3));
   --transform-rotate: -2deg !important;
 }
-
-
+.with-massive-shade {
+  -webkit-filter: drop-shadow(12px 3px 3px rgba(0, 0, 0, .4));
+  filter: drop-shadow( 12px 3px 3px rgba(0, 0, 0, .4));
+}
 .button {
   @apply cursor-pointer;
   @apply p-6 pl-12 pr-12 text-center text-center text-white rounded-lg;
@@ -126,4 +128,27 @@ form {
   @apply w-screen;
   margin-left: 50%;
   transform: translateX(-50%);
+}
+
+
+/* Take this out to a special component
+@nr: 8;
+@p: 100%/@nr;
+@m: repeating-conic-gradient(#000 0% .5*@p, transparent 0% @p);
+*/
+
+.dusktilldawn {
+  background: linear-gradient(theme('clr.primary'), theme('clr.contrast'));
+}
+.dawntilldusk {
+  background: linear-gradient(theme('clr.contrast'), theme('clr.primary'));
+}
+.hero-splash {
+  @apply flex justify-center items-center h-full;
+  @apply .dawntilldusk;
+}
+.hero {
+  @apply w-screen h-screen;
+  @apply .dusktilldawn;
+  mask: repeating-conic-gradient(#000 0% .5*100%/14, transparent 0% 100%/14);
 }

@@ -14011,6 +14011,11 @@ p {
   --transform-rotate: -2deg !important;
 }
 
+.with-massive-shade {
+  -webkit-filter: drop-shadow(12px 3px 3px rgba(0, 0, 0, .4));
+  filter: drop-shadow( 12px 3px 3px rgba(0, 0, 0, .4));
+}
+
 .button {
   cursor: pointer;
   padding: 1.5rem;
@@ -14139,6 +14144,36 @@ form {
   width: 100vw;
   margin-left: 50%;
   transform: translateX(-50%);
+}
+
+/* Take this out to a special component
+@nr: 8;
+@p: 100%/@nr;
+@m: repeating-conic-gradient(#000 0% .5*@p, transparent 0% @p);
+*/
+
+.dusktilldawn {
+  background: linear-gradient(#FFC222, #F57D05);
+}
+
+.dawntilldusk {
+  background: linear-gradient(#F57D05, #FFC222);
+}
+
+.hero-splash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(#F57D05, #FFC222);
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#FFC222, #F57D05);
+  -webkit-mask: repeating-conic-gradient(#000 0% .5*100%/14, transparent 0% 100%/14);
+          mask: repeating-conic-gradient(#000 0% .5*100%/14, transparent 0% 100%/14);
 }
 
 @media (min-width: 640px) {

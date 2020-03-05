@@ -1,0 +1,7 @@
+<section class="hero-splash">
+	<div class="hero">
+	</div>
+</section>
+<picture class="absolute flex w-full h-screen justify-center" style="top: 0%;">
+	<img class="self-center with-massive-shade" src="/assets/kabang-logo.svg" width="1400" height="400" />
+</picture>
