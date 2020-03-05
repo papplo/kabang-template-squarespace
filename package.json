@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "dev": "npm run watch & npm run localdev",
-    "localdev": "squarespace-server --auth --verbose --auto-reload https://point-guitar-h4pd.squarespace.com",
+    "localdev": "squarespace-server --auth --auto-reload https://point-guitar-h4pd.squarespace.com",
     "build": "postcss --verbose --no-map src/dependencies/stylesheets/*.less --dir styles",
     "watch": "postcss --verbose --no-map src/dependencies/stylesheets/*.less -w --dir styles",
     "commit-dependencies": "git add styles",
