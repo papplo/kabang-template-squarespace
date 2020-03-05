@@ -1,0 +1,15 @@
+<section class="w-11/12">
+  <ul class="stack-cards js-stack-cards">
+    <li class="stack-cards__item bg radius-lg shadow-md js-stack-cards__item bg-gray-200">
+      <div class="flex flex-center">Card One</div>
+    </li>
+
+    <li class="stack-cards__item bg radius-lg shadow-md js-stack-cards__item bg-gray-400">
+      <div class="flex flex-center">Card Two</div>
+    </li>
+
+    <li class="stack-cards__item bg radius-lg shadow-md js-stack-cards__item bg-gray-600">
+      <div class="flex flex-center">Card Three</div>
+    </li>
+  </ul>
+</section>

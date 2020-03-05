@@ -1,0 +1,10 @@
+<section class="triptych">
+  <div class="triptych__grid container max-width-adaptive-xl">
+    <div class="triptych__img-wrapper"><img src="https://images.squarespace-cdn.com/content/v1/5c4adaab9d5abb1c6437c3e7/1569593539312-0222CTTQ1G9NP6IN2J54/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/friends2.jpg?format=500w" alt="Sample image one"></div>
+    <div class="triptych__img-wrapper"><img src="https://images.squarespace-cdn.com/content/v1/5c4adaab9d5abb1c6437c3e7/1569593513804-DZ6T9JEMTRQ2QEQ94VKB/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/meeting2.jpg?format=500w" alt="Sample image two"></div>
+    <div class="triptych__img-wrapper"><img src="https://images.squarespace-cdn.com/content/v1/5c4adaab9d5abb1c6437c3e7/1569593557040-OP2B39ZCWJB9L1CPXPGY/ke17ZwdGBToddI8pDm48kJK4Mm1kch8SFO9ZNkN1NT97gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmFk_H6M1tkD9NpL7mXac0oVSXdFfjxR5AjcLwGSebOiGBsFzzcw3xKxvyC_6CFFG_/hosoos.jpg?format=500w" alt="Sample image three"></div>
+    <div class="triptych__label">
+      <p class="text-md">Attityd käkar betyg till frukost.</p>
+    </div>
+  </div>
+</section>

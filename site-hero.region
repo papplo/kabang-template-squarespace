@@ -11,5 +11,5 @@
   </head>
 
   <body id="{squarespace.page-id}" class="{squarespace.page-classes} bg-gray-100">
-{@|apply hero.block}
+    {@|apply hero.block}
     <div class="container">

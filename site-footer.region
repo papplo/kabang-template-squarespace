@@ -7,9 +7,10 @@
   </footer>
 
 </div>
-    <squarespace:script src="alpine-dist.js" combo="false" />
+    <squarespace:script src="cdh-util.js" combo="false" />
     <squarespace:script src="email.min.js" combo="false" />
     <squarespace:script src="mailform.js" combo="false" />
+    <squarespace:script src="stack.js" combo="false" />
 
     <!--Injection point for tracking scripts and user content from the code injection tab.-->
     {squarespace-footers}
