@@ -78,8 +78,11 @@ form {
       @apply appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight;
   }
   input:focus {
-        @apply outline-none bg-white border-gray-500
-      }
+    @apply outline-none bg-white border-gray-500
+  }
+  .--isError {
+    @apply text-orange-500 text-xs italic mb-2 mt-3;
+  }
 }
 
 
@@ -89,7 +92,7 @@ form {
 
 .wrapper-grid {
   @apply .wrapper;
-
+  /*  comment shuold run new build again*/
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: auto 1fr;

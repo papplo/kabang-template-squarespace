@@ -10,8 +10,8 @@
   "scripts": {
     "dev": "npm run watch & npm run localdev",
     "localdev": "squarespace-server --auth --verbose --auto-reload https://point-guitar-h4pd.squarespace.com",
-    "build": "postcss --no-map src/dependencies/stylesheets/*.less --dir styles",
-    "watch": "postcss --no-map src/dependencies/stylesheets/*.less -w --dir styles",
+    "build": "postcss --verbose --no-map src/dependencies/stylesheets/*.less --dir styles",
+    "watch": "postcss --verbose --no-map src/dependencies/stylesheets/*.less -w --dir styles",
     "commit-dependencies": "git add styles",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +23,7 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
     "alpinejs": "^2.0.2",
     "autoprefixer": "^9.7.4",
     "postcss": "^7.0.27",

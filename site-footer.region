@@ -8,8 +8,16 @@
 
 </div>
     <squarespace:script src="alpine-dist.js" combo="false" />
+    <squarespace:script src="email.min.js" combo="false" />
+    <squarespace:script src="mailform.js" combo="false" />
+
     <!--Injection point for tracking scripts and user content from the code injection tab.-->
     {squarespace-footers}
-
+    <script type="text/javascript">
+       (function(){
+          // console.log('init emailjs', emailjs);
+          emailjs.init("user_BHZawfSIwYZp4bfPJtTUq");
+       })();
+    </script>
   </body>
 </html>

@@ -1,11 +1,11 @@
-<nav data-content-field="navigation-mainNav" class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
-  <div class="flex items-center flex-shrink-0 text-white mr-6">
-    <!-- <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span> -->
+<nav data-content-field="navigation-mainNav" class="flex items-center justify-between flex-wrap p-6">
+  <div class="flex items-center flex-shrink-0 text-gray-700 mr-6">
+    <span class="font-semibold text-xl tracking-tight">{website.siteTitle}</span>
   </div>
   <div class="block lg:hidden">
-    <!-- <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+    <button class="flex items-center px-3 py-2 border rounded text-black border-black hover:text-orange-600 hover:border-gray-400">
       <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-    </button> -->
+    </button>
   </div>
 
   <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
@@ -14,12 +14,12 @@
 
       <!-- collection link -->
         {.section collection}
-          <a href="{fullUrl}" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">{navigationTitle}</a>
+          <a href="{fullUrl}" class="block mt-4 lg:inline-block lg:mt-0 text-orange-600 hover:text-gray-500 mr-4">{navigationTitle}</a>
         {.end}
 
         <!-- external link -->
         {.section externalLink}
-          <a href="{url}"{.section newWindow} target="_blank"{.end} class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">{title}</a>
+          <a href="{url}"{.section newWindow} target="_blank"{.end} class="block mt-4 lg:inline-block lg:mt-0 texttext-orange-600 hover:text-gray-500 mr-4">{title}</a>
         {.end}
       {.end}
     </div>
